@@ -1,0 +1,70 @@
+##Aggregate scores
+
+#openness
+c1=c1/len(res)
+c1=(c1+val1)/2
+c2=c2/len(res)
+c2=(c2+val1)/2
+c3=c3/len(res)
+c3=(c3+val1)/2
+c4=c4/len(res)
+c4=(c4+val1)/2
+c5=c5/len(res)
+c5=(c5+val1)/2
+
+#conscienciousness
+c6=c6/len(res)
+c6=(c6+val2)/2
+c7=c7/len(res)
+c7=(c7+val2)/2
+c20=c20/len(res)
+c20=(c20+val2)/2
+c9=c9/len(res)
+c9=(c9+val2)/2
+c10=c10/len(res)
+c10=(c10+val2)/2
+
+#extravagent
+c11=c11/len(res)
+c11=(c11+val3)/2
+c12=c12/len(res)
+c12=(c12+val3)/2
+c13=c13/len(res)
+c13=(c13+val3)/2
+c14=c14/len(res)
+c14=(c14+val3)/2
+c15=c15/len(res)
+c15=(c15+val3)/2
+
+#agreeableness
+c16=c16/len(res)
+c16=(c16+val4)/2
+c17=c17/len(res)
+c17=(c17+val4)/2
+c18=c18/len(res)
+c18=(c18+val4)/2
+c19=c19/len(res)
+c19=(c19+val4)/2
+c21=c21/len(res)
+c21=(c21+val4)/2
+
+#neuroticism
+c22=c22/len(res)
+c22=(c22+val5)/2
+c23=c23/len(res)
+c23=(c23+val5)/2
+c24=c24/len(res)
+c24=(c24+val5)/2
+c25=c25/len(res)
+c25=(c25+val5)/2
+c26=c26/len(res)
+c26=(c26+val5)/2
+
+##Average of each trait
+
+openness=((c1/len(res)+c2/len(res)+c3/len(res)+c4/len(res)+c5/len(res))/5) *100
+conc=((c6/len(res)+c7/len(res)+c20/len(res)+c9/len(res)+c10/len(res))/5) *100
+extra=((c11/len(res)+c12/len(res)+c13/len(res)+c14/len(res)+c15/len(res))/5) *100
+agree=((c16/len(res)+c17/len(res)+c18/len(res)+c19/len(res)+c21/len(res))/5) *100
+neuro=((c22/len(res)+c23/len(res)+c24/len(res)+c25/len(res)+c26/len(res))/5) *100
+print(openness,conc,extra,agree,neuro)
