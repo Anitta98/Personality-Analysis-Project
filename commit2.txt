@@ -1,0 +1,3 @@
+nltk.download('stopwords')
+from nltk.corpus import stopwords
+en_stops = set(stopwords.words('english'))
