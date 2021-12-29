@@ -1,0 +1,55 @@
+## Calculate LIWC scores
+
+#conscientiousness
+
+x1=0
+for i in work:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x1=x1+1
+x1=x1/len(res)
+
+x2=0
+for i in achievement:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x2=x2+1
+x2=x2/len(res)
+
+val2=(x1+x2)/2
+print(val2)
+
+#extraversion
+
+x1=0
+for i in leisure:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x1=x1+1
+            
+x1=x1/len(res)
+
+x2=0
+for i in swear:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x2=x2+1
+            
+x2=x2/len(res)
+
+x3=0
+for i in res:
+    if len(i)>6:
+        x3=x3+1
+        
+x3=x3/len(res)
+val3=(x1+x2+x3)/3
+print(val3)
