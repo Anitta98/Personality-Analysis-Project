@@ -1,0 +1,39 @@
+adventure =['adventuresome','To Travel is to Live','going out your door','step into the night and pursue', 'audacious','Travel','you can see the place','discover new','Adventure is worthwhile in itself','thousand days of ease and comfort','we’d have roots instead of feet','where you want to get to','Life is either a daring adventure or nothing', 'bold', 'daring', 'dashing', 'emboldened', 'enterprising', 'free-swinging', 'gutsy', 'hardy', 'nerved', 'nervy', 'venturesome', 'venturous','brash', 'daredevil', 'foolhardy', 'heedless', 'hotheaded', 'impetuous', 'imprudent', 'impulsive', 'incautious', 'madcap', 'overbold', 'overconfident', 'rash', 'reckless', 'thoughtless', 'wild','brave', 'courageous', 'dauntless', 'fearless', 'gallant', 'greathearted', 'heroic', 'intrepid', 'lionhearted', 'stalwart', 'stout', 'stouthearted', 'swashbuckling', 'unafraid', 'undaunted', 'valiant', 'valorous','brave', 'courageous', 'dauntless', 'fearless', 'gallant', 'greathearted', 'heroic', 'intrepid', 'lionhearted', 'stalwart', 'stouthearted', 'swashbuckling', 'unafraid', 'undaunted', 'valiant', 'valorous','gritty', 'plucky', 'spirited', 'spunky','absurd', 'asinine', 'balmy', 'brainless', 'crazy', 'foolish', 'half-witted', 'harebrained', 'insane', 'lunatic', 'mad', 'nutty', 'scatterbrained', 'silly', 'wacky','irrational', 'unreasonable' ]
+
+art =['aesthetic','“An artist who paints landscapes','eventful','absolutely','creative','decorative','dramatic','imaginative','musical','cultivated','cultured','elegant','exquisite','fine','graceful','grand','harmonious','ideal','ornamental','pictorial','picturesque','pleasing','poetic','refined','rhythmical','sensitive','stimulating','stylish','sublime','tasteful','stylish','sublime','tasteful','adroitly','beautifully','delicately','easily','elegantly','graciously','neatly','nimbly','skillfully','smoothly','agilely','charmingly','daintily','delightfully','dexterously','exquisitely','felicitously','fitly','handsomely','harmoniously','pleasingly','rhythmically','sprucely','symmetrically','perfect','wonderful']
+
+imagine =['adroitly',
+'beautifully',
+'delicately',
+'easily',
+'elegantly',
+'graciously',
+'neatly',
+'nimbly',
+'skillfully',
+'smoothly',
+'agilely',
+'charmingly',
+'daintily',
+'delightfully',
+'dexterously',
+'exquisitely',
+'felicitously',
+'fitly',
+'handsomely',
+'harmoniously',
+'pleasingly',
+'rhythmically',
+'surprise',
+'sprucely',
+'moment',
+'buzzing',
+'symmetrically','brainstorm', 'brainstorming', 'inspiration',
+'fecundity', 'fertility',
+'ingenuity', 'resourcefulness','versatility',
+'chimera', 'daydream', 'delusion', 'dream', 'figment', 'hallucination', 'illusion', 'mirage', 'phantasm', 'pipe dream','envisaging', 'visualization']
+
+intellect =['brain', 'brainiac', 'genius', 'thinker', 'whiz', 'wiz', 'wizard','polyhistor', 'polymath', 'Renaissance','geek', 'longhair', 'nerd','blue', 'bluestocking', 'highbrow', 'intellectual','master', 'virtuoso','ace', 'crackerjack', 'natural','sage', 'savant','eggheadedness', 'highbrowism', 'intellectualism','acumen', 'alertness', 'apprehension', 'astuteness', 'discernment', 'discriminability', 'insight', 'judgment', 'perception', 'percipience', 'perspicacity','sagacity', 'sapience', 'wisdom', 'wit','common sense', 'sense','aptitude', 'talent']
+
+
+auth_ch= ['arduous', 'Augean', 'backbreaking', 'demanding', 'difficult', 'effortful', 'exacting', 'formidable', 'grueling', 'hard', 'heavy', 'hellacious', 'herculean', 'killer', 'laborious', 'moiling', 'murderous', 'pick-and-shovel', 'rigorous', 'rough', 'rugged', 'severe', 'stiff', 'strenuous', 'sweaty', 'tall', 'testing', 'toilsome', 'tough', 'uphill','abstract', 'abstruse', 'complex', 'complicated', 'elusive', 'hairy', 'insoluble', 'intricate', 'involved', 'knotty', 'opaque', 'problematic', 'recondite', 'serious', 'spiny', 'stubborn', 'thorny', 'ticklish', 'tricky','pro', 'professional','consultant', 'hired gun', 'specialist','addict', 'aficionado', 'buff', 'devotee', 'enthusiast', 'fan','craftsman', 'journeyman','all-rounder', 'jack-of-all-trades','mistress']
