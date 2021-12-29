@@ -1,0 +1,95 @@
+##Word frequency count
+
+#Conscientiousness
+
+c6=0
+for i in res:
+    for j in achievement_striving:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c6=c6+1
+print(c6/len(achievement_striving))
+
+c7=0
+for i in res:
+    for j in cautiousness:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c7=c7+1
+print(c7/len(cautiousness))
+
+c8=0
+for i in res:
+    for j in orderliness:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c8=c8+1
+print(c8/len(orderliness))
+
+c9=0
+for i in res:
+    for j in self_discipline:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c9=c9+1
+print(c9/len(self_discipline))
+
+c10=0
+for i in res:
+    for j in self_efficiency:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c10=c10+1
+print(c10/len(self_efficiency))
+
+#Extraversion
+
+c11=0
+for i in res:
+    for j in activity_level:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c11=c11+1
+print(c11/len(activity_level))
+
+c12=0
+for i in res:
+    for j in assertiveness:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c12=c12+1
+print(c12/len(assertiveness))
+
+c13=0
+for i in res:
+    for j in cheerfulness:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c13=c13+1
+print(c13/len(cheerfulness))
+
+c14=0
+for i in res:
+    for j in excitement:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c14=c14+1
+print(c14/len(excitement))
+
+c15=0
+for i in res:
+    for j in outgoing:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c15=c15+1
+print(c15/len(outgoing))
