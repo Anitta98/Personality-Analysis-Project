@@ -1,0 +1,30 @@
+#Openness
+x1=0
+for i in preposition:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x1=x1+1
+x1=x1/len(res)
+
+x2=0
+for i in inclusive:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x2=x2+1
+x2=x2/len(res)
+
+x3=0
+for i in money:
+    for j in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if i.lower() == j.lower():
+            x3=x3+1
+x3=x3/len(res)
+
+val1=(x1+x2+x3)/3
+print(val1)
