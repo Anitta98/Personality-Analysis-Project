@@ -1,0 +1,46 @@
+c1=0
+for j in adventure:
+    for i in res:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c1=c1+1
+
+print(c1/len(adventure))
+
+c2=0
+for i in res:
+    for j in art:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c2=c2+1
+print(c2/len(art))
+
+
+c3=0
+for i in res:
+    for j in imagine:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c3=c3+1
+print(c3/len(imagine))
+
+c4=0
+for i in res:
+    for j in intellect:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c4=c4+1
+print(c4/len(intellect))
+
+c5=0
+for i in res:
+    for j in auth_ch:
+        i=porter.stem(i)
+        j=porter.stem(j)
+        if j.lower() in i.lower():
+            c5=c5+1
+print(c5/len(auth_ch))
