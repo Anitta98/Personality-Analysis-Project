@@ -1,0 +1,31 @@
+##Threshold values and analysis
+
+t1=0.0014
+t2=0.00023
+t3=0.0027
+t4=0.0004
+t5=0.0002
+if openness >= t1:
+    print(handle," is more willing to embrace new things, fresh ideas, and novel experiences. They are also very good at thinking about and making connections between different concepts and ideas\n ")
+else:
+    print(handle,"  may find it difficult to cope with changes. Individuals who are low in this trait may pass up opportunities to try new things, including changes that could lead to academic or career advancement \n")
+
+if conc >=t2:
+    print(handle," is someone who is diligent and thorough in their work. They pay attention to detail, and generally have good time keeping.\n")
+else :
+    print(handle," is tend to avoid planning ahead.They may have difficulty pursuing long-term goals because they are easily distracted and tend to follow their impulses.\n")
+
+if extra >=t3:
+    print(handle," enjoy being with people, participating in social gatherings, and are full of energy.\n")
+else:
+    print(handle,"  is less outgoing and is more comfortable working by himself.\n")
+
+if agree >=t4:
+    print(handle," is often very sympathetic and are easily moved to have care and concern for others. \n")
+else:
+    print(handle," experience less empathy and put their own concerns ahead of others.  Low scorers are often described as hostile, competitive, and antagonistic.\n")
+
+if nuero >=t5:
+    print(handle,"  may respond poorly to environmental stress, interpret ordinary situations as threatening, and can experience minor frustrations as hopelessly overwhelming.\n")
+else:
+    print(handle," tend to be more emotionally stable and less reactive to stress. They tend to be calm, even-tempered, and less likely to feel tense or rattled.\n")
