@@ -1,0 +1,10 @@
+consumer_key ='hwvVU4iowWV7bhp7FDoNJqYOM'
+consumer_secret ='RT7Loq8delJI4BuuNbhv0addVr9C9185vVgC8fy4Pg0dBITTvL'
+access_token ='1446100251908083713-DTBe6pFMznYRckQ8GgjCuT3ug3Gfdb'
+access_token_secret ='EaFfeN6mIilCifoffV0rj5NjsQGWukybQr9QRpt3LsfM3'
+
+auth=tw.OAuthHandler(consumer_key,consumer_secret)
+# Set Tokens
+auth.set_access_token(access_token,access_token_secret)
+# Instantiate API
+api = tw.API(auth, wait_on_rate_limit=True)
