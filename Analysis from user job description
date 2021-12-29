@@ -1,0 +1,38 @@
+## Analysis from user job description
+
+for i in desc2:
+    c=1
+    if i.lower() == 'actor' or i.lower() == 'actress':
+        if openness<t1:
+            print(handle," should improve personality trait-> openness ")
+            c=0
+        if conc < t2:
+            print(handle," should improve personality trait-> conscientiousness")
+            c=0
+        if agree <t4:
+            print(handle," should improve personality trait-> agreeableness ")
+            c=0
+        if c == 1:
+            print(handle," has good personality scores in openness,conscientiousness,agreeableness")
+    elif i.lower() == 'footballer':
+        if conc <t2:
+            print(handle," should improve personality trait-> conscientiousness")
+            c=0
+        if nuero <t5:
+            print(handle," should improve personality trait-> Neuroticism ")
+            c=0
+        if c == 1:
+            print(handle," has good personality scores in conscientiousness,neuroticism")
+                      
+    elif i.lower() == 'minister':
+        if conc<t2:
+            print(handle," should improve personality trait-> conscientiousness")
+            c=0
+        if nuero <t5:
+            print(handle," should improve personality trait-> Neuroticism ")
+            c=0
+        if extra <t3:
+            print(handle," should improve personality trait-> Extraversion")
+            c=0
+        if c == 1:
+            print(handle," has good personality scores in conscientiousness,neuroticism and extraversion")            
