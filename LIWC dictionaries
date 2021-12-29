@@ -1,0 +1,44 @@
+preposition=['above', 'across', 'after', 'at', 'around', 'before', 'behind',
+'below', 'beside', 'between', 'by', 'down', 'during', 'for', 'from',
+'in', 'inside', 'onto', 'of', 'off', 'on', 'out', 'through',
+'to', 'under', 'up', 'with']
+inclusive= ['and','with','include']
+money =['cash','audit','owe']
+
+
+work =['job','majors','xerox','appointment','career ','collaboration ','delegation',
+       'employment','job security','labor','opportunity','probation','professional','vacancy',
+       'workload','conduce', 'contribute',
+'decide', 'determine','begin', 'establish', 'inaugurate', 'initiate', 'innovate', 'institute', 
+ 'launch', 'pioneer', 'set', 'set up', 'start',
+'advance', 'cultivate', 'develop', 'encourage', 'forward', 'foster', 'further', 'nourish', 'nurture', 'promote',
+'enact', 'render', 'turn out']
+
+achievement =['accomplishment', 'acquirement', 'attainment', 'coup', 'success', 'triumph','blockbuster',
+'hit', 'jackpot', 'megahit', 'miracle', 'smash', 'winner',
+'conquest', 'gain', 'victory', 'win',
+'skill','deed', 'feat', 'performance','arrival', 'completion',
+'consummation', 'culmination', 'execution', 'fruition', 'fulfillment', 
+'implementation', 'realization','feather']
+
+leisure =['cook','chat','movie','celebration','feast','picnic','trip','enjoyment','treat','party','sport','game','play','good time','leisure','fun','spree','satisfaction','rest','nap']
+swear =['Arse',
+'Bloody',
+'Bugger',
+'Cow',
+'Crap',
+'Damn',
+'Ginger',
+'Git',
+'God',
+'Goddam',
+'Jesus Christ',
+'Bollocks',
+'crap']    
+
+pos_emo =['love','nice','sweet','peace','hope','relief','gratitude','pride','inspiration','excitement','delight','astonish','amusement']
+p_pronoun =['we','us','our']
+negation=['no','not','never','nothing','neither','nowhere','none','hardly','scarcely','wont','dont']
+anxiety =['nervous','afraid','tense','doubt','suspense','cold feet','fear','panic','terrified','distraction','distress','shaking','crawl']
+fut_verbs =['gonna','will']
+neg_emo =['hate', 'worthless', 'enemy','hurt','ugly','nasty','disgust','betrayed','rage','annoyance','despair','dirty','stupid','evil','empty','screwed']
