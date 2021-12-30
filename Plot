@@ -1,0 +1,79 @@
+x=['Adventureness', 'Artistic Interests', 'Imagination', 'Intellect', 'Authority Challenging']
+ 
+# giving the values against
+# each value at x axis
+y=[c1,c2,c3,c4,c5]
+plt.figure(figsize=(10, 5))
+plt.bar(x, y, align='edge', width=0.3)
+ 
+# setting x-label
+plt.xlabel("Traits")
+ 
+# setting y_label 
+plt.ylabel("Values")  
+plt.title(" Openness")
+plt.show()
+
+x=['Achievement Striving ', 'Cautiousness', 'Uncompromising', 'Self Discipline', 'Self-Efficiency']
+ 
+# giving the values against
+# each value at x axis
+y=[c6,c7,c20,c9,c10]
+plt.figure(figsize=(10, 5))
+plt.bar(x, y, align='edge', width=0.3)
+ 
+# setting x-label
+plt.xlabel("Traits")
+ 
+# setting y_label 
+plt.ylabel("Values")  
+plt.title(" Conscientiousness")
+plt.show()
+
+x=['Activity level', 'Assertiveness', 'Cheerfulness', 'Excitement Seeking', 'Outgoing']
+ 
+# giving the values against
+# each value at x axis
+y=[c11,c12,c13,c14,c15]
+plt.figure(figsize=(10, 5))
+plt.bar(x, y, align='edge', width=0.3)
+ 
+# setting x-label
+plt.xlabel("Traits")
+ 
+# setting y_label 
+plt.ylabel("Values")  
+plt.title(" Extraversion")
+plt.show()
+
+x=['Cooperation', 'Modesty', 'Sympathy', 'Trust','Altruism']
+ 
+# giving the values against
+# each value at x axis
+y=[c16,c17,c18,c19,c21]
+plt.figure(figsize=(10, 5))
+plt.bar(x, y, align='edge', width=0.3)
+ 
+# setting x-label
+plt.xlabel("Traits")
+ 
+# setting y_label 
+plt.ylabel("Values")  
+plt.title(" Agreeableness")
+plt.show()
+
+x=['Prone-to-worry', 'Immoderation', 'Fiery', 'Self-consciousness', 'Susceptible to stress']
+ 
+# giving the values against
+# each value at x axis
+y=[c22,c23,c24,c25,c26]
+plt.figure(figsize=(10, 5))
+plt.bar(x, y, align='edge', width=0.3)
+ 
+# setting x-label
+plt.xlabel("Traits")
+ 
+# setting y_label 
+plt.ylabel("Values")  
+plt.title(" Neuroticism")
+plt.show()
